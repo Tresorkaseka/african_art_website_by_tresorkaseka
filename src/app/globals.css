@@ -1,26 +1,84 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-sans: var(--font-inter);
+  --font-art: var(--font-playfair);
+
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+:root {
+  --background: #F4F1ED;
+  --foreground: #1A1713;
+  --card: #FFFFFF;
+  --card-foreground: #1A1713;
+  --popover: #FFFFFF;
+  --popover-foreground: #1A1713;
+  --primary: #D69E2E;
+  --primary-foreground: #FFFFFF;
+  --secondary: #C05621;
+  --secondary-foreground: #FFFFFF;
+  --muted: #E2E8F0;
+  --muted-foreground: #4A5568;
+  --accent: #276749;
+  --accent-foreground: #FFFFFF;
+  --border: #E2E8F0;
+  --input: #E2E8F0;
+  --ring: #D69E2E;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: #1A1713;
+  --foreground: #F4F1ED;
+  --card: #2D2722;
+  --card-foreground: #F4F1ED;
+  --popover: #2D2722;
+  --popover-foreground: #F4F1ED;
+  --primary: #D69E2E;
+  --primary-foreground: #1A1713;
+  --secondary: #C05621;
+  --secondary-foreground: #FFFFFF;
+  --muted: #3D352F;
+  --muted-foreground: #A0AEC0;
+  --accent: #276749;
+  --accent-foreground: #FFFFFF;
+  --border: #3D352F;
+  --input: #3D352F;
+  --ring: #D69E2E;
+}
+
+@utility text-balance {
+  text-wrap: balance;
 }
