@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Earth & Heritage : African Art Gallery
+*Projet réalisé par / Project designed and developed by **Trésor Kaseka***
 
-## Getting Started
+![Aperçu du projet / Project Preview](./public/hero_mask.png)
 
-First, run the development server:
+## 🇫🇷 Description du Projet (Français)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Earth & Heritage** est une plateforme e-commerce et une galerie d'art numérique premium dédiée à la mise en valeur, la préservation et l'acquisition d'artefacts et d'objets d'art africains authentiques. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+L'objectif de ce projet est de briser les codes traditionnels du e-commerce pour embrasser une esthétique de galerie d'art : minimaliste, immersive et luxueuse. L'interface met en lumière la richesse culturelle de l'Afrique subsaharienne tout en offrant une expérience utilisateur (UX) de pointe, marquée par des "Effets Wahou".
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Fonctionnalités Clés & Effets Wahou
+- **Cinematic Smooth Scrolling** : Défilement fluide et inertiel propulsé par [Lenis] pour une expérience de navigation digne des meilleures agences digitales (Awwwards).
+- **Cartographie & Provenance** : Visualisation interactive des origines des œuvres via une frise chronologique liée à une carte stylisée de l'Afrique.
+- **Enchères en Direct (Bento Dynamique)** : Tableau de bord asymétrique simulant des enchères en temps réel avec un flux d'activité perpétuel.
+- **Micro-Physique Magnétique** : Éléments d'interface (boutons) réactifs avec une physique de ressort (Magnetic UI) pour un feeling haut de gamme au survol.
+- **Parallax Scroll-Linked** : Les pièces d'art réagissent au défilement, créant une profondeur cinématique.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Stack Technique Principale
+- **Framework** : Next.js 14+ (App Router)
+- **Styling** : Tailwind CSS v4 (Design System sur-mesure)
+- **Animations** : Framer Motion (useScroll, useSpring)
+- **Typographie** : Playfair Display (Titres) & Inter (Corps de texte)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🇬🇧 Project Description (English)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Earth & Heritage** is a premium digital art gallery and e-commerce platform dedicated to showcasing, preserving, and acquiring authentic African artifacts and masterpieces.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The goal of this project is to break away from traditional e-commerce conventions and embrace a pure art gallery aesthetic: minimalist, immersive, and luxurious. The interface highlights the cultural richness of Sub-Saharan Africa while delivering a cutting-edge user experience (UX) defined by signature "Wow Effects".
 
-## Deploy on Vercel
+### Key Features & Wow Effects
+- **Cinematic Smooth Scrolling**: Butter-smooth, inertial global scrolling powered by [Lenis] to create a browsing experience worthy of top-tier digital agencies.
+- **Cartography & Provenance Timeline**: An interactive visualization tracing artifacts back to their ethnic and geographical origins across a stylized map of Africa.
+- **Live Auctions (Dynamic Bento)**: An asymmetrical dashboard simulating real-time exclusive bidding with a perpetual, infinite activity stream.
+- **Magnetic Micro-Physics**: Interactive interface elements (like main CTA buttons) programmed with spring physics that magnetically attract to the cursor on hover.
+- **Scroll-Linked Parallax**: Artwork pieces react dynamically to scroll progression, giving the page immense cinematic depth.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Core Tech Stack
+- **Framework**: Next.js 14+ (App Router)
+- **Styling**: Tailwind CSS v4 (Custom engineered utility design system)
+- **Animations**: Framer Motion (useScroll, useSpring)
+- **Typography**: Playfair Display (Headings) & Inter (Body)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+*© 2024-2026 Trésor Kaseka. All Rights Reserved.*
