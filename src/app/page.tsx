@@ -19,12 +19,12 @@ export default function Home() {
     <main ref={container} className="min-h-screen relative overflow-hidden selection:bg-primary/30">
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-card z-[-1]" />
 
-      <nav className="absolute top-0 w-full p-6 md:p-10 flex justify-between items-center z-50">
+      <nav className="absolute top-0 left-0 w-full px-6 md:px-12 lg:px-24 py-6 md:py-10 flex justify-between items-center z-50">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-          className="font-art font-extrabold text-2xl tracking-tight text-primary-foreground mix-blend-difference"
+          className="font-art font-extrabold text-2xl tracking-tight text-foreground"
         >
           MBARI.
         </motion.div>
@@ -33,7 +33,7 @@ export default function Home() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="flex gap-8 text-sm uppercase tracking-widest font-medium text-primary-foreground mix-blend-difference"
+          className="flex gap-6 md:gap-8 text-xs md:text-sm uppercase tracking-widest font-bold text-foreground"
         >
           <a href="#auctions" className="hover:text-primary transition-colors">Auctions</a>
           <a href="#gallery" className="hover:text-primary transition-colors">Gallery</a>
