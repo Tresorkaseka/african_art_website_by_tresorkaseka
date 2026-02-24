@@ -3,7 +3,7 @@
 
 ![Aperçu du projet / Project Preview](./public/hero_mask.png)
 
-## 🇫🇷 Description du Projet (Français)
+## Description du Projet (Français)
 
 **Earth & Heritage** est une plateforme e-commerce et une galerie d'art numérique premium dédiée à la mise en valeur, la préservation et l'acquisition d'artefacts et d'objets d'art africains authentiques. 
 
@@ -24,7 +24,7 @@ L'objectif de ce projet est de briser les codes traditionnels du e-commerce pour
 
 ---
 
-## 🇬🇧 Project Description (English)
+## Project Description (English)
 
 **Earth & Heritage** is a premium digital art gallery and e-commerce platform dedicated to showcasing, preserving, and acquiring authentic African artifacts and masterpieces.
 
