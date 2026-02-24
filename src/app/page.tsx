@@ -33,11 +33,11 @@ export default function Home() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="flex gap-6 md:gap-8 text-xs md:text-sm uppercase tracking-widest font-bold text-foreground"
+          className="flex md:hidden gap-4 text-[10px] uppercase tracking-widest font-bold text-foreground"
         >
           <a href="#auctions" className="hover:text-primary transition-colors">Auctions</a>
           <a href="#gallery" className="hover:text-primary transition-colors">Gallery</a>
-          <a href="#artists" className="hidden md:block hover:text-primary transition-colors">Artists</a>
+          <a href="#artists" className="hover:text-primary transition-colors">Artists</a>
         </motion.div>
       </nav>
 
