@@ -93,9 +93,9 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.95, filter: "blur(10px)" }}
             animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
             transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1] }}
-            className="relative w-full h-[70vh] md:h-[85vh] md:w-[80%] lg:w-[70%]"
+            className="relative w-full h-full md:h-[85vh] md:w-[80%] lg:w-[70%]"
           >
-            <div className="absolute inset-0 bg-card overflow-hidden rounded-2xl md:rounded-[2rem]">
+            <div className="absolute inset-0 bg-card overflow-hidden md:rounded-[2rem]">
               <Image
                 src="/hero_mask.png"
                 alt="Intricate African Wooden Mask"
